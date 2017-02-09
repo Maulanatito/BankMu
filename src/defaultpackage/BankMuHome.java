@@ -105,11 +105,11 @@ public class BankMuHome extends javax.swing.JFrame {
 
         keterangan.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         getContentPane().add(keterangan);
-        keterangan.setBounds(280, 200, 320, 30);
+        keterangan.setBounds(280, 200, 120, 30);
 
         nilai.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         getContentPane().add(nilai);
-        nilai.setBounds(380, 240, 130, 30);
+        nilai.setBounds(400, 200, 130, 30);
 
         setBounds(0, 0, 717, 528);
     }// </editor-fold>//GEN-END:initComponents
@@ -123,7 +123,7 @@ public class BankMuHome extends javax.swing.JFrame {
         
         
         int saldo = 2000000;
-        keterangan.setText("SISA SALDO YANG ANDA MILIKI");
+        keterangan.setText("Sisa saldo mu");
         nilai.setText(""+saldo);
     }//GEN-LAST:event_saldoActionPerformed
 
